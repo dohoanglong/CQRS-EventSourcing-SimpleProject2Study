@@ -1,11 +1,12 @@
 package repository;
 
 import dto.User;
+import projector.UserProjector;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class UserRepository {
+public class UserWriteRepository {
     private final Map<String, User> store = new HashMap<>();
 
 

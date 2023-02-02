@@ -1,5 +1,6 @@
 package dto;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class User {
@@ -13,6 +14,8 @@ public class User {
         this.userid = userid;
         this.firstName = firstName;
         this.lastName = lastName;
+        addresses = new HashSet<>();
+        contacts = new HashSet<>();
     }
 
     public String getUserid() {

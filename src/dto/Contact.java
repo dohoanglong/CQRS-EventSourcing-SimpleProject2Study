@@ -19,4 +19,12 @@ public class Contact {
     public void setDetail(String detail) {
         this.detail = detail;
     }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+            "type='" + type + '\'' +
+            ", detail='" + detail + '\'' +
+            '}';
+    }
 }
